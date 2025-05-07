@@ -6,11 +6,14 @@ const LandingPage = () => {
     <div className="min-h-screen bg-gradient-to-b from-primary-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="text-center">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-8">
-            Find Your Perfect <span className="text-primary-600">Health Insurance</span> Plan
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-4">
+            <span className="text-primary-600">VimaPay</span>
           </h1>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-8">
+            Your Smart Health Insurance Guide
+          </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-12">
-            Get personalized health insurance recommendations based on your needs, budget, and health conditions. We'll help you find the right coverage for you and your family.
+            Get personalized health insurance recommendations tailored to your needs. VimaPay helps you find the perfect coverage for you and your family with real-time comparisons and expert guidance.
           </p>
           <Link
             to="/form"
